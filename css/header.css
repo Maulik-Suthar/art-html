@@ -1,0 +1,106 @@
+/*Header Start*/
+.headerMain {display: block; padding:30px 0; margin: 0; position: absolute; top: 0; width: 100%; text-align: center; z-index: 1;}
+.headermenu {float: left;}
+.navigation .naviInner .navi-text{padding: 6px 25px; display: inline-block;}
+.navigation .naviInner .navi-text:first-child{padding-left: 0;}
+.navigation .naviInner .navi-text .navi-text-link{padding: 0; color: #fff; font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 2.64; text-transform: uppercase;}
+.navigation .naviInner .navi-text .navi-text-link:hover{color: #ccb48e;}
+.sitelogo {/*display: inline-block;*/ position: absolute; left: 50%; top: 15px; margin-left: -52px;}
+
+.logingsl {float: right;}
+.logingsl .loginlink{padding:4px 25px; color: #fff; font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 2.64; display: inline-block;}
+.logingsl .loginlink:hover{color: #ccb48e;}
+
+.register-btn {padding:4px 25px; color: #fff; font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 2.64; border:1px solid #fff; display: inline-block;}
+.register-btn:hover{color: #ccb48e; border-color: #ccb48e;}
+
+.ratesl{float: right; margin-right: 15px;}
+.headrate-btn {padding:4px 25px 4px 20px; color: #fff; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 600; line-height: 2.64; border:1px solid #ccb48e; display: inline-block;}
+.headrate-btn:hover{color: #ccb48e; border-color: #ccb48e;}
+.headrate-btn .icon-head-star {color:#ccb48e; margin-right: 10px;}
+
+.searchsl {float: right; height: 42px; width: 42px; background: #fff; position: relative; border-radius: 50%; margin-left:20px;}
+.searchsl .icon-search {position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); margin-top: 2px;}
+
+.moreNav{float: right; width: auto; padding: 0 15px 0 0px; position: relative;}
+.moreNav .droptext{display: inline-block; vertical-align: middle; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 500; padding: 14px 7px 14px 15px; color: #fff;  cursor: pointer; text-transform: uppercase;}
+.moreNav .droptext:after{content: ""; position: absolute;right:3px; top: 0; bottom: 3px; margin: auto;  width: 0; height: 0; border-left:5px solid transparent; border-right:5px solid transparent; border-top:5px solid #fff;}
+.moreNav .dropdownblock {position: absolute; width:110px; background: #fff; box-shadow: 0 0 6px rgba(0,0,0,0.3); left: 0; top: 100%; text-align: left; border-radius: 3px; display: none;}
+.moreNav:hover .dropdownblock {display: block;}
+
+.myAccount{float: right; width: auto; text-align: left; padding: 0 15px; position: relative;}
+.myAccount .droptext{display: inline-block; vertical-align: middle; position: relative; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 500; padding: 14px 20px 14px 30px; color: #fff; cursor: pointer; text-transform: uppercase;} 
+.myAccount .droptext .icon{position: absolute; left: 0; top: 0; bottom: 0; font-size: 20px; color: #fff; margin: auto; width: 1em; height: 1em; }
+.myAccount .droptext:after{content: ""; position: absolute; right:0px; top: 0; bottom: 3px; margin: auto;  width: 0; height: 0; border-left:5px solid transparent; border-right:5px solid transparent; border-top:5px solid #fff;}
+.myAccount .dropdownblock {position: absolute; width:200px; background: #fff; box-shadow: 0 0 6px rgba(0,0,0,0.3); left: 0; top: 100%; text-align: left; border-radius: 3px; display: none;}
+.myAccount:hover .dropdownblock {display: block;}
+.dropdownblock .dropdown-link {padding:10px 10px; display: block; font-size: 15px;}
+.dropdownblock .dropdown-link:hover{color:#222; background: #ededed;}
+
+.menuIcon{display: none; width: 2.8125rem; height: 2.8125rem; position: relative; padding: 13px 9px; border-radius: 50%;}
+.menuIcon .line { display: block;width: 28px; position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 2px; background: #fff; margin: auto;}
+.menuIcon .line:before {content: ""; width: 28px; position: absolute; top: -8px; left: 0; right: 0; height: 2px; background: #fff;}
+.menuIcon .line:after{content: ""; width: 28px; position: absolute; bottom: -8px; left: 0; right: 0; height: 2px; background: #fff;}
+
+
+/* header style2 */
+.headerMain.light_cl .navigation .naviInner .navi-text .navi-text-link{color:#222222;}
+.headerMain.light_cl .navigation .naviInner .navi-text .navi-text-link:hover{color:#ccb48e;}
+.headerMain.light_cl .logingsl .loginlink{color:#ccb48e;}
+.headerMain.light_cl .headrate-btn {color: #222222;}
+.headerMain.light_cl .headrate-btn:hover {color: #ccb48e; border-color: #222222;}
+.headerMain.light_cl .myAccount .droptext, .headerMain.light_cl .moreNav .droptext {color: #222222}
+.headerMain.light_cl .myAccount .droptext .icon, .headerMain.light_cl .moreNav .droptext .icon {color: #222222;}
+.headerMain.light_cl .myAccount .droptext:after, .headerMain.light_cl .moreNav .droptext:after {border-top: 5px solid #222222;}
+.headerMain.light_cl .searchsl{background: #ebebeb;}
+
+.addart_sl {float: left; margin-left: 15px;}
+.addart-btn {padding:4px 20px 4px 20px; color: #222; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 600; line-height: 2.64; border:1px solid #ccb48e; display: inline-block;}
+.addart-btn:hover{color: #ccb48e; border-color: #222;}
+.desktop-btn {display:inline-block;}
+.mobile-btn {display: none;}
+
+
+
+
+/* Reponsive */
+@media only screen and (max-width: 991px) {
+.menuIcon {display: inline-block; float: left;}
+.headermenu {display: none;}
+.sitelogo {left: inherit; position: relative; float: left; margin-left: 50px; top: inherit; margin-top:-20px;}
+.desktop-btn, .addart_sl {display:none;}
+.mobile-btn {display:none;}
+.headerMain.light_cl .menuIcon .line, .headerMain.light_cl .menuIcon .line:before, .headerMain.light_cl .menuIcon .line:after {background: #222222;}
+}
+
+@media only screen and (max-width: 767px) {
+.sitelogo {margin-top: -14px; margin-left: 20px; top: inherit;}
+.sitelogo img {max-width: 75px;}
+.searchsl {margin-left: 20px;}
+.myAccount {padding: 10px 15px;}
+.myAccount .user-name{display: none;}
+.myAccount .droptext {padding: 14px 20px 14px 20px;}
+}
+
+@media only screen and (max-width: 479px) {
+.logingsl {width: 100%; margin-top: 20px; text-align: center;}
+.register-btn {padding: 0 25px;}
+.searchsl {height: 35px; width: 35px;}
+.searchsl .icon-search {font-size: 14px; margin-top: 1px;}
+.moreNav .dropdownblock {width: 88px;}
+.moreNav .droptext {padding: 10px 4px 10px 0px;}
+.myAccount .droptext{padding: 14px 16px 14px 20px}
+.myAccount {padding: 5px 15px;}
+.ratesl {width: 100%; margin-top: 20px; margin-right: 0;}
+.myAccount .dropdownblock {width: 160px;}
+.headerMain.light_cl {position: relative; display: inline-block;}
+.addart-btn {margin-right: 10px;}
+.mobile-btn {display: inline-block;}
+}
+
+@media only screen and (max-width: 360px) {
+.searchsl{margin-left: 10px;}
+.sitelogo {margin-left: 10px;}
+}
+
+/*Header End*/

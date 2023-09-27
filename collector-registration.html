@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Artplatt</title> 
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="icon" type="image/ico" href="images/favicon.png" />
+
+<link rel="stylesheet" href="css/theme-icon.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/header.css" />
+<link rel="stylesheet" type="text/css" href="css/footer.css" />
+</head>
+
+<body> 
+<div class="wrapper">
+	<!-- Header Section Start -->
+	<header class="headerMain light_cl">
+		<div class="container">
+			<div class="menuIcon">
+				<span class="line"></span>
+			</div>			
+			<div class="headermenu">
+				<nav class="navigation slideMenu">
+					<ul class="naviInner">
+						<li class="navi-text"><a href="#" class="navi-text-link">Art</a></li>
+						<li class="navi-text"><a href="#" class="navi-text-link">Artists</a></li>
+						<li class="navi-text"><a href="#" class="navi-text-link">ArtPLACES</a></li>						
+					</ul>
+				</nav>				
+			</div>
+			<div class="addart_sl">
+				<a href="#" class="addart-btn desktop-btn">ADD ARTS</a>
+			</div>
+			<div class="sitelogo"><a href="index.html" title="Artplatt"><img src="images/logo-second.png" alt="Artplatt"></a></div>			
+			<a href="#" class="searchsl"><i class="icon-search"></i></a>
+			<div class="moreNav"> 
+			  <span class="droptext">En</span>
+			  <div class="dropdownblock">
+			    <a class="dropdown-link" href="#">En</a>
+			    <a class="dropdown-link" href="#">US</a>			    
+			  </div>
+			</div>
+			<div class="myAccount"> 
+			  <span class="droptext">
+			  	<i class="icon icon-user"></i>
+			  	<span class="user-name">John Doe</span>
+			  </span>
+			  <div class="dropdownblock">
+			    <a class="dropdown-link" href="#">Action</a>
+			    <a class="dropdown-link" href="#">Another action</a>
+			    <a class="dropdown-link" href="#">Something else here</a>
+			  </div>
+			</div>
+			<div class="ratesl">				
+				<a href="#" class="addart-btn mobile-btn">ADD ARTS</a>
+				<a href="#" class="headrate-btn"><i class="icon-head-star"></i>RATE ARTS</a>
+			</div>
+		</div>
+	</header>
+	<!-- Header Section End -->
+
+	<!-- Inner Part Start -->
+	<div class="InnerSl">
+			<!-- Registration section start -->
+			<section class="registration_sl">
+				<div class="regi_inner">
+					<h2 class="main-title"><span class="dot-sl">REGISTRATION</span></h2>
+					<form class="form" method="post">
+                    <fieldset class="fieldset">
+                        <div class="blockContent">
+                        	<div class="field account_field">
+                            	<label class="label">Account Type <span class="required">*</span></label>
+                                <div class="control">
+                                    <div class="role-list">
+			                            <div class="pure-radiobox">
+			                            <input type="radio" id="artist_radio" name="radio" class="filled-in chk-col-red"  value="1">
+			                            <label for="artist_radio">&nbsp;<span class="radiobox-text-right">Artist</span></label>
+			                            </div>
+                          			</div>
+		                          <div class="role-list">
+		                              <div class="pure-radiobox">
+		                              <input type="radio" checked="checked" id="collector_radio" name="radio" class="filled-in chk-col-red"  value="2">
+		                              <label for="collector_radio">&nbsp;<span class="radiobox-text-right">Collector</span></label>
+		                              </div>
+		                          </div>
+		                          <div class="role-list">
+		                              <div class="pure-radiobox">
+		                              <input type="radio" id="artplace_radio" name="radio" class="filled-in chk-col-red"  value="3">
+		                              <label for="artplace_radio">&nbsp;<span class="radiobox-text-right">Artplace</span></label>
+		                              </div>
+		                          </div>
+                                </div>
+                            </div>                        	
+                            <div class="field halfLayout">
+                            	<label class="label">First Name <span class="required">*</span></label>
+                                <div class="control">
+                                    <input name="name" title="Name" value="" class="input-text" type="text">
+                                </div>
+                            </div>
+                            <div class="field halfLayout">
+                            	<label class="label">Last Name <span class="required">*</span></label>
+                                <div class="control">
+                                    <input name="name" title="Name" value="" class="input-text" type="text">
+                                </div>
+                            </div>                            
+                            <div class="field">
+                            	<label class="label">Email Address <span class="required">*</span></label>
+                                <div class="control">
+                                    <input name="email" title="Email" value="" class="input-text" type="email">
+                                </div>
+                            </div>
+                            <div class="field">
+                            	<label class="label">Password <span class="required">*</span></label>
+                                <div class="control">
+                                    <input name="password" title="Password" value="" class="input-text" type="password">
+                                </div>
+                            </div>
+                            <div class="field">
+                            	<label class="label">Phone Number</label>
+                                <div class="control">
+                                    <input name="phone" title="Phone Number" value="" class="input-text" type="number">
+                                </div>
+                            </div>
+                             <div class="field">
+                            	<label class="label">Address</label>
+                                <div class="control">
+                                	<textarea cols="5" rows="3" class="input-text textarea"></textarea>
+                                	<div class="browse_sl">
+                                		<div class="browse_inner">
+	                                		<input type="file" class="filadd" name="upload_file" onchange="UploadFile( this )" value="" id="appatfl browseFl">
+	                                		<div class="browse_box">
+	                                			<i class="icon icon-upload"></i>
+	                                			<span class="upload-text">Upload Profile Photo</span>
+	                                		</div>
+                                		</div>
+                                		<div class="size-text">(SIZE: 200PX* 200PX)</div>
+                                	</div>
+                                </div>
+                            </div>                            
+                             <div class="field">
+                            	<label class="customCheckbox">
+									<input type="checkbox" name="cat" />
+									<span class="lable-text">I agree to <span class="label_cl">Terms of conditions</span></span>
+								</label>
+                            </div>      
+                            <div class="field">
+                                <a href="#" class="btn">REGISTER</a>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+				</div>
+			</section>
+			<!-- Registration section end -->		
+	</div>
+	<!-- Inner Part End -->
+
+
+	<!-- Footer Section Start -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-main-row">
+				<div class="footer-big-column">
+					<div class="footerbox">
+						<a class="foot-logo" href="index.html" title="Artplatt"><img src="images/foot-logo.png" alt="Artplatt"></a>
+						<p class="foot-description">Artplatt.com is a worldwide ecosystem for Artists, Artplaces and everyone interested in Art of all it's various forms. Our passion is Art. Our Mission is to create a simplified and global access to all art-related activities for everyone.</p>
+						<div class="foot-social">
+							<a href="#" class="foot-social-anchor"><i class="icon icon-facebook"></i></a>
+							<a href="#" class="foot-social-anchor"><i class="icon icon-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-small-column">
+					<div class="foot-nav">
+						<div class="footnav_title"><span></span>COMPANY</div>
+						<ul class="footer-list">
+							<li class="footer-row"><a class="footer-text-link" href="#" title="About Us">About Us</a></li>
+							<li class="footer-row"><a class="footer-text-link" href="#" title="Terms of Conditions">Terms of Conditions</a></li>
+							<li class="footer-row"><a class="footer-text-link" href="#" title="Imprint">Imprint</a></li>
+							<li class="footer-row"><a class="footer-text-link" title="Privacy Policy">Privacy Policy</a></li>
+							<li class="footer-row"><a class="footer-text-link" href="#" title="Contact Us">Contact Us</a></li>							
+						</ul>
+					</div>
+					
+				</div>
+				<div class="footer-small-column">
+					<div class="foot-nav">
+						<div class="footnav_title"><span></span>CATEGORIES</div>
+						<ul class="footer-list">
+							<li class="footer-row"><a class="footer-text-link" href="#" title="Art">Art</a></li>
+							<li class="footer-row"><a class="footer-text-link" href="#" title="Artists">Artists</a></li>
+							<li class="footer-row"><a class="footer-text-link" href="#" title="Art Place">Art Place</a></li>						
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="copyrightsl">
+		<div class="container">
+			<div class="leftpart"><i class="icon"><img class="heartImg" src="images/heart.png" alt=""></i><span class="foot-design">Designed and developed by <a href="#">Appsandmore24</a></span></div>
+			<div class="rightpart">&copy; Copyright 2020 artplatt.com</div>
+
+		</div>
+	</div>
+	<!-- Footer Section End -->
+</div>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+/* footer Section start */
+.footer {display: block; background: #222222; width: 100%; padding: 66px 0; clear: both;}
+.footer-main-row {display: flex; flex-wrap:wrap; margin-left:-15px; margin-right:-15px;}
+.footer-big-column {max-width: 58%; flex: 0 0 58%; padding-left: 15px; padding-right: 15px;}
+.footer-small-column {max-width: 21%; flex: 0 0 21%; padding-left: 15px; padding-right: 15px;}
+.foot-logo {display: inline-block;}
+.footerbox {max-width: 500px;}
+.footerbox .foot-description {display: block; color: #bcbcbc; line-height: 1.86; font-size: 14px; margin: 36px 0;}
+
+.foot-social .foot-social-anchor {color: #d8d8d8; display:inline-block; margin-right: 25px;}
+.foot-social .foot-social-anchor .icon {font-size: 30px;}
+.foot-social .foot-social-anchor:hover{color: #ae8b52;}
+
+.foot-nav .footnav_title{font-size: 16px; font-family: 'Cardo', serif; font-weight: bold; line-height: 2.5; color: #fff; margin-bottom:30px; padding-left: 50px; position: relative;}
+.foot-nav .footnav_title:before {content:''; position: absolute; left: 0; top:50%; height:2px; width: 26px; background: #ae8b52;}
+.foot-nav .footnav_title:after {content:''; position: absolute; left:28px; top:50%; height:2px; width: 4px; background: #d2d2d2;}
+.foot-nav .footer-list .footer-row {margin-bottom: 10px; padding-left: 50px;}
+.foot-nav .footer-list .footer-row .footer-text-link {color: #bcbcbc; font-size: 15px; line-height: 1.67; font-family: 'Open Sans', sans-serif;}
+.foot-nav .footer-list .footer-row .footer-text-link:hover{color: #ae8b52;}
+
+.copyrightsl {background: #1d1d1d; width: 100%; padding: 16px 0; float: left; font-family: 'Open Sans', sans-serif; font-size: 13px; color: #a7a6a6;}
+.copyrightsl .leftpart {float: left;}
+.copyrightsl .leftpart .icon {display: inline-block; vertical-align: middle;}
+.copyrightsl .leftpart .foot-design {display: inline-block; vertical-align: middle; padding-left: 15px;}
+.copyrightsl .rightpart {float: right;}
+.copyrightsl a {color: #a7a6a6;}
+.copyrightsl a:hover {color: #ae8b52;}
+
+/* Responsive css */
+
+@media only screen and (max-width: 1199px) {
+.footer-big-column {max-width: 50%; flex: 0 0 50%;}
+.footer-small-column {max-width: 25%; flex: 0 0 25%;}
+}
+
+@media only screen and (max-width: 767px) {
+.footer-big-column {max-width: 100%; flex: 0 0 100%;}
+.footer-small-column {max-width: 100%; flex: 0 0 100%;}
+.footerbox {margin-bottom: 40px;}
+.copyrightsl .leftpart .icon .heartImg{max-width: 80%;}
+.copyrightsl .leftpart .foot-design {padding-left: 5px;}
+}
+
+@media only screen and (max-width: 479px) {
+.footer {padding: 30px 0;}
+.foot-nav .footer-list {margin-bottom: 30px;}
+.copyrightsl .rightpart {float: left; padding-left: 26px;}
+}
+
+@media only screen and (max-width: 360px) {
+.copyrightsl {font-size: 12px;}
+}
+
+/* footer Section End */

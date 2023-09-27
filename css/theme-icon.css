@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "artplatt";
+  src:url("../fonts/artplatt.eot");
+  src:url("../fonts/artplatt.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/artplatt.woff") format("woff"),
+    url("../fonts/artplatt.ttf") format("truetype"),
+    url("../fonts/artplatt.svg#artplatt") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "artplatt" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "artplatt" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\61";
+}
+.icon-instagram:before {
+  content: "\62";
+}
+.icon-search:before {
+  content: "\63";
+}
+.icon-next-arrow:before {
+  content: "\64";
+}
+.icon-pre-arrow:before {
+  content: "\65";
+}
+.icon-user:before {
+  content: "\66";
+}
+.icon-head-star:before {
+  content: "\67";
+}
+.icon-mail:before {
+  content: "\68";
+}
+.icon-telephone:before {
+  content: "\69";
+}
+.icon-pin:before {
+  content: "\6a";
+}
+.icon-edit:before {
+  content: "\6b";
+}
+.icon-delete:before {
+  content: "\6c";
+}
+.icon-upload:before {
+  content: "\6d";
+}
